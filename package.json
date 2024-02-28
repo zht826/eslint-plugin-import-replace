@@ -1,11 +1,13 @@
 {
   "name": "eslint-plugin-import-replace",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Change import source",
   "keywords": [
     "eslint",
     "eslintplugin",
-    "eslint-plugin"
+    "eslint-plugin",
+    "import-replace",
+    "import-rewrite"
   ],
   "author": "mutao",
   "main": "./lib/index.js",
@@ -34,5 +36,9 @@
   "peerDependencies": {
     "eslint": ">=7"
   },
-  "license": "ISC"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zht826/eslint-plugin-import-replace"
+  },
+  "license": "MIT"
 }
